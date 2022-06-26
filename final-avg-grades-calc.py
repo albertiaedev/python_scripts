@@ -1,3 +1,5 @@
+#Input your grades to calculate the averageto check if you pass
+#or fail the semester
 print("FINAL AVERAGE GRADES CALCULATOR")
 print("\nWelcome.")
 print("\nPlease, verify your grades in order to know your average.")
