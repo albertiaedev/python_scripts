@@ -1,3 +1,5 @@
+#Las estadísticas son una parte muy importante del beísbol,
+#así que calculemos algunas estadísticas
 print("|::-MUÉSTRANOS TUS ESTADÍSTICAS DE BÉISBOL-::|")
 
 jugador = input("\nIngrese el nombre del jugador: ")
@@ -64,12 +66,12 @@ elif stat == 2:
         ERA = (CP*9)/(IL) # Efectividad
         print(f"\nLa efectividad de {jugador} es: {ERA:.2f}")
     elif pitching == 2:
-        print("\nPorcentaje de bases concedidas (WHIP)->")
+        print("\nPromedio de bases concedidas (WHIP)->")
         IL = float(input("\nIndique la cantidad de innings lanzados: "))
         H = int(input("\nIndique la cantidad de hits permitidos: "))
         BB = int(input("\nIndique la cantidad de bases por bolas otorgadas: "))
-        WHIP = (H+BB)/(IL) # Porcentaje de bases concedidas
-        print(f"\nEl porcentaje de bases concedidas de {jugador} es: {WHIP:.2f}")
+        WHIP = (H+BB)/(IL) # Promedio de bases concedidas
+        print(f"\nEl promedio de bases concedidas de {jugador} es: {WHIP:.2f}")
     elif pitching == 3:
         print("\nPorcentaje de juegos ganados (WP)->")
         JG = int(input("\nIndique el total de juegos ganados: "))
