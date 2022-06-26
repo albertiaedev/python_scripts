@@ -1,3 +1,4 @@
+#Calcute the total compound interest
 print("\t\t\t···································")
 print("\t\t\t:··Compound Interest Calculator··:")
 print("\t\t\t···································")
