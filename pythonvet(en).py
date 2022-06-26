@@ -1,3 +1,4 @@
+#Vet clinical history
 print("\t\t\t:·PYTHON-VET by J.A. Hernández·:")
 print("\n:·Our goal is to offer to you the best experience for veterinary assistance·:")
 print("_____________________________________________________________________________")
@@ -110,42 +111,42 @@ if menu == 1 or menu == 2 or menu == 3 or menu == 4 or menu == 5:
             print("\nWe don't have data for this species currently.")
             print("We recommend a diagnostic from an specialist.")
 
-        fc = int(input(f"\nEnter {var3}'s cardiac frequency (bpm): "))
-        print(f"\n{var3}'s cardiac frequency is {fc} beats per minute.")
+        fc = int(input(f"\nEnter {var3}'s cardia rate (bpm): "))
+        print(f"\n{var3}'s cardiac rate is {fc} beats per minute.")
         if menu == 1:
             if fc < 60:
-                print(f"-> Warning: {var3}'s cardiac frequency is below normal.")
+                print(f"-> Warning: {var3}'s cardiac rate is below normal.")
             elif fc > 180:
-                print(f"-> Warning: {var3}'s cardiac frequency is above normal.")
+                print(f"-> Warning: {var3}'s cardiac rate is above normal.")
             else:
-                print(f"-> {var3}'s cardiac frequency is in the normal range.")
+                print(f"-> {var3}'s cardiac rate is in the normal range.")
         elif menu == 2:
             if fc < 140:
-                print(f"-> Warning: {var3}'s cardiac frequency is below normal.")
+                print(f"-> Warning: {var3}'s cardiac rate is below normal.")
             elif fc > 220:
-                print(f"-> Warning: {var3}'s cardiac frequency is above normal.")
+                print(f"-> Warning: {var3}'s cardiac rate is above normal.")
             else:
-                print(f"-> {var3}'s cardiac frequency is in the normal range.")
+                print(f"-> {var3}'s cardiac rate is in the normal range.")
         else:
             print("\nWe don't have data for this species currently.")
             print("We recommend a diagnostic from an specialist.")
 
-        fr = int(input(f"\nEnter {var3}'s respiratory frequency (bpm): "))
-        print(f"\n{var3}'s respiratory frequency is {fr} breaths per minute.")
+        fr = int(input(f"\nEnter {var3}'s respiratory rate (bpm): "))
+        print(f"\n{var3}'s respiratory rate is {fr} breaths per minute.")
         if menu == 1:
             if fr < 10:
-                print(f"-> Warning: {var3}'s respiratory frequency is below normal.")
+                print(f"-> Warning: {var3}'s respiratory rate is below normal.")
             elif fr > 30:
-                print(f"-> Warning: {var3}'s respiratory frequency is above normal.")
+                print(f"-> Warning: {var3}'s respiratory rate is above normal.")
             else:
-                print(f"-> {var3}'s respiratory frequency is in the normal range.")
+                print(f"-> {var3}'s respiratory rate is in the normal range.")
         elif menu == 2:
             if fr < 20:
-                print(f"-> Warning: {var3}'s respiratory frequency is below normal.")
+                print(f"-> Warning: {var3}'s respiratory rate is below normal.")
             elif fr > 42:
-                print(f"-> Warning: {var3}'s respiratory frequency is above normal.")
+                print(f"-> Warning: {var3}'s respiratory rate is above normal.")
             else:
-                print(f"-> {var3}'s respiratory frequency is in the normal range.")
+                print(f"-> {var3}'s respiratory rate is in the normal range.")
         else:
             print("\nWe don't have data for this species currently.")
             print("We recommend a diagnostic from an specialist.")
