@@ -1,3 +1,4 @@
+#Calculate your salary per hour
 print("~~~~~~~~~~~~~~~~~~")
 print("| SysPython LLC |")
 print("~~~~~~~~~~~~~~~~~~")
