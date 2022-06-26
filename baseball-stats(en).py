@@ -1,3 +1,5 @@
+#Stats are a very important part of baseball,
+#So let's do some stats
 print("|::-SHOW YOUR BASEBALL STATS-::|")
 
 player = input("\nEnter player's name: ")
