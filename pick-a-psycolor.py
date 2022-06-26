@@ -1,3 +1,4 @@
+#Choose a color for your brand logo
 print("|:·:·PICK-A-PSYCOLOR·:·:|")
 
 print("\nWelcome!\n\nChoose a color that relates to an attribute according to psychology:\n")
