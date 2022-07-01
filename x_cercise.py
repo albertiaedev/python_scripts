@@ -1,6 +1,6 @@
 #This app tells you what are the right exercises for people your age
-name = input("Hi, what's your name? ->")
-age = int(input("How old are you? ->"))
+name = input("Hi, what's your name? -> ")
+age = int(input("How old are you? -> "))
 
 print(f"\nHello, {name}. Please enjoy your physical activity.")
 print(f"\nYou said you are {age} years old. This is a list of exercises for people your age...")
