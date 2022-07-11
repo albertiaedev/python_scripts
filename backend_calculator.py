@@ -4,7 +4,7 @@ print("\nBackend Calculator\n")
 name=input("Name: ")
 print("\nOptions ->\n")
 
-option={1:"1.Add.",2:"2.Rest.",
+option={1:"1.Add.",2:"2.Substract.",
         3:"3.Multiply.",4:"4.Divide."}
 for value in option:
     print(option[value])
