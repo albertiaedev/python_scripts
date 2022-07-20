@@ -2,8 +2,8 @@
 import random
 import string
 
-#Enter the lenght of the password
-lenght = int(input("Enter the desired lenght of the password: "))
+#Enter the length of the password
+length = int(input("Enter the desired length of the password: "))
 
 #It will create an unhackable password for your accounts
 lower_case = string.ascii_lowercase
@@ -12,6 +12,6 @@ number = string.digits
 symbol = string.punctuation
 
 create = lower_case + upper_case + number + symbol
-password = "".join(random.sample(create,lenght))
+password = "".join(random.sample(create,length))
 
 print("\nCongratulations! Your password has been created:",password)
