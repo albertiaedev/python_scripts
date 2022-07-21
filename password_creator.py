@@ -3,7 +3,7 @@ import random
 import string
 
 #Enter the length of the password
-print("Warning: The passsword shall be 8-16 characters long.")
+print("Warning: The password shall be 8-16 characters long.")
 length = int(input("\nEnter the desired length of the password: "))
 
 #It will create an unhackable password for your accounts
