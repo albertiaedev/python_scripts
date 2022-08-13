@@ -1,7 +1,7 @@
 import sqlite3 #sqlite3 is the default database that's built-in Python
 
-#Useful SQL commands
-"""
+#Useful SQL commands#
+ ###
 #Create a client server
 client = bigquery.Client() #When we're working with BigQuery
 
@@ -22,4 +22,4 @@ SELECT col, COUNT(ID)
 FROM `folder.db.table`
 GROUP BY col
 HAVING COUNT(ID)=n
-"""
+
