@@ -14,9 +14,9 @@ if length >= 8 and length <= 16:
   symbol = string.punctuation
 
   create = lower_case + upper_case + number + symbol
-  password = "".join(random.sample(create,length))
+  psswrd = "".join(random.sample(create,length))
 
-  print("\nCongratulations! Your password has been created:",password)
+  print("\nCongratulations! Your password has been created:",psswrd)
 else:
   print("\nCan't create a password.")
 #Use this password for bank accounts, private documents and mobile wallets
