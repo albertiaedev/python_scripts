@@ -19,11 +19,11 @@ The first thing you need to do is to open your terminal/cmd, access to the direc
 
 ### HTTPS
 
-```git clone https://github.com/jesusalberto18/Python_Development.git```
+```git clone https://github.com/albertiaedev/python_scripts.git```
 
 ### SSH
 
-```git clone git@github.com:jesusalberto18/Python_Development.git```
+```git clone git@github.com:albertiaedev/python_scripts.git```
 
 And that's it! It creates a local copy of this repository in your machine.
 
